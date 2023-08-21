@@ -11,4 +11,5 @@ export default class Account extends LightningElement {
     columns = columns;
     @wire(getAccounts)
     accounts;
+
 }
